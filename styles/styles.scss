@@ -75,7 +75,7 @@ body {
     margin: 0 auto;
     font-size: 32px;
     font-weight: normal;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 0px 55px 0px 55px;
     &--margin {
       margin-top: 76px;
@@ -96,14 +96,14 @@ body {
 
   &__title {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 893px;
     height: 228px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     text-align: center;
     color: white;
     font-size: 48px;
@@ -114,5 +114,10 @@ body {
   min-height: 100%;
   &--background-color {
     background-color: #ffffff;
+  }
+  &__image {
+    float: left;
+    margin-right: 48px;
+    margin-bottom: 35px;
   }
 }
