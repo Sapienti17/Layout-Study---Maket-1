@@ -17,7 +17,6 @@ body {
   }
   &__menu {
     margin-left: auto;
-    font-size: 20px;
     padding-right: 55px;
 
     &-list {
@@ -28,7 +27,7 @@ body {
 
   &__menu-link {
     color: var(--color-white);
-    font-size: 24px;
+    font-size: 1.714vw;
     font-weight: 500;
   }
 }
@@ -54,7 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 75px;
+    font-size: 5.35em;
     font-weight: 500;
   }
 }
