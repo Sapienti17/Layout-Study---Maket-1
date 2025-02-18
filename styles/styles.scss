@@ -63,8 +63,8 @@ body {
   min-height: 100%;
   &__title {
     height: 75px;
-    margin-top: 48px;
-    margin-bottom: 16px;
+    padding-top: 48px;
+    padding-bottom: 16px;
     text-align: center;
     font-size: 64px;
     font-weight: 500;
@@ -77,6 +77,9 @@ body {
     font-weight: normal;
     margin-bottom: 30px;
     padding: 0px 55px 0px 55px;
+    &--margin {
+      margin-top: 76px;
+    }
 
     &--bold {
       font-weight: bold;
