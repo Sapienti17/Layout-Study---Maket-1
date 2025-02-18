@@ -113,7 +113,6 @@ legend {
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto-Italic.woff2) format(woff2);
@@ -121,7 +120,6 @@ legend {
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto-Medium.woff2) format(woff2);
@@ -129,7 +127,6 @@ legend {
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto-MediumItalic.woff2) format(woff2);
@@ -137,7 +134,6 @@ legend {
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Roboto";
   src: url(../fonts/Roboto-Bold.woff2) format(woff2);
@@ -145,7 +141,6 @@ legend {
   font-style: normal;
   font-display: swap;
 }
-
 :root {
   --color-green: #007765;
   --color-white: #ffffff;
@@ -177,26 +172,22 @@ body {
   width: 100%;
   height: 84px;
 }
-
 .header__inner {
   height: inherit;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .header__menu {
   margin-left: auto;
   font-size: 20px;
   padding-right: 55px;
 }
-
 .header__menu-list {
   display: flex;
   -moz-column-gap: 8px;
-  column-gap: 8px;
+       column-gap: 8px;
 }
-
 .header__menu-link {
   color: var(--color-white);
   font-size: 24px;
@@ -210,11 +201,9 @@ body {
 .img-block {
   position: relative;
 }
-
 .img-block__image {
   width: 100%;
 }
-
 .img-block__title {
   position: absolute;
   top: 0;
@@ -228,11 +217,10 @@ body {
   font-weight: 500;
 }
 
-.text-block-1 {
-  height: 719px;
+.text-block {
+  min-height: 100%;
 }
-
-.text-block-1__title {
+.text-block__title {
   height: 75px;
   margin-top: 48px;
   margin-bottom: 16px;
@@ -241,8 +229,7 @@ body {
   font-weight: 500;
   color: var(--color-green);
 }
-
-.text-block-1__paragraph {
+.text-block__paragraph {
   width: 1110px;
   margin: 0 auto;
   font-size: 32px;
@@ -250,31 +237,35 @@ body {
   margin-bottom: 30px;
   padding: 0px 55px 0px 55px;
 }
-
-.text-block-1__paragraph--bold {
+.text-block__paragraph--bold {
   font-weight: bold;
 }
 
 .img-block-2 {
   position: relative;
 }
-
 .img-block-2__image {
   width: 100%;
 }
-
 .img-block-2__title {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 893px;
+  height: 228px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 128px 559px;
+  margin: 0 auto;
   text-align: center;
   color: white;
   font-size: 48px;
   font-weight: 500;
+}
+
+.text-block-2 {
+  min-height: 100%;
+}
+.text-block-2--background-color {
+  background-color: #ffffff;
 }

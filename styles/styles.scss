@@ -59,8 +59,8 @@ body {
   }
 }
 
-.text-block-1 {
-  height: 719px;
+.text-block {
+  min-height: 100%;
   &__title {
     height: 75px;
     margin-top: 48px;
@@ -105,5 +105,11 @@ body {
     color: white;
     font-size: 48px;
     font-weight: 500;
+  }
+}
+.text-block-2 {
+  min-height: 100%;
+  &--background-color {
+    background-color: #ffffff;
   }
 }
