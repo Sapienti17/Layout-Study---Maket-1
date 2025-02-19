@@ -274,7 +274,6 @@ section {
 
 .text-block-2 {
   max-width: 100%;
-  min-height: 100%;
 }
 .text-block-2--background-color {
   background-color: #ffffff;
@@ -285,6 +284,9 @@ section {
   margin-bottom: 35px;
 }
 
+.team-block {
+  margin-bottom: 84px;
+}
 .team-block__list {
   display: inline-block;
   flex-wrap: wrap;
@@ -292,4 +294,25 @@ section {
   text-align: center;
   padding: 15px;
   padding-top: 110px;
+}
+.team-block__list-name {
+  color: var(--color-green);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.team-block__list-job {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.footer {
+  height: 176px;
+  background-color: var(--color-footer);
+}
+.footer__text {
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  font-size: 18;
 }

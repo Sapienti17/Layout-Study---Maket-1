@@ -118,7 +118,6 @@ section {
 }
 .text-block-2 {
   max-width: 100%;
-  min-height: 100%;
   &--background-color {
     background-color: #ffffff;
   }
@@ -130,6 +129,7 @@ section {
 }
 
 .team-block {
+  margin-bottom: 84px;
   &__list {
     display: inline-block;
     flex-wrap: wrap;
@@ -137,5 +137,26 @@ section {
     text-align: center;
     padding: 15px;
     padding-top: 110px;
+    &-name {
+      color: var(--color-green);
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+    &-job {
+      font-size: 18px;
+      font-style: italic;
+    }
+  }
+}
+
+.footer {
+  height: 176px;
+  background-color: var(--color-footer);
+  &__text {
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    font-size: 18;
   }
 }
