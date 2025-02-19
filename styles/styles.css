@@ -203,6 +203,7 @@ section {
 }
 
 .img-block {
+  max-width: 100%;
   position: relative;
 }
 .img-block__image {
@@ -249,6 +250,7 @@ section {
 }
 
 .img-block-2 {
+  max-width: 100%;
   position: relative;
 }
 .img-block-2__image {
@@ -271,6 +273,7 @@ section {
 }
 
 .text-block-2 {
+  max-width: 100%;
   min-height: 100%;
 }
 .text-block-2--background-color {
@@ -282,16 +285,11 @@ section {
   margin-bottom: 35px;
 }
 
-.team-block {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 893px;
-}
 .team-block__list {
+  display: inline-block;
   flex-wrap: wrap;
-  width: 33.333%;
+  width: 33%;
   text-align: center;
+  padding: 15px;
+  padding-top: 110px;
 }
