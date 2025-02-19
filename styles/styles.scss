@@ -3,8 +3,13 @@
 body {
   font-size: 14px;
   // width: 1109px;
-  margin: 0 auto;
 }
+section {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1110px;
+}
+
 .header {
   background-color: var(--color-green);
   width: 100%;
@@ -118,5 +123,21 @@ body {
     float: left;
     margin-right: 48px;
     margin-bottom: 35px;
+  }
+}
+
+.team-block {
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 893px;
+  &__list {
+    flex-wrap: wrap;
+    width: 33.333%;
+    text-align: center;
   }
 }
